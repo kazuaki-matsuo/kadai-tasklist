@@ -1,5 +1,4 @@
-class TasklistController < ApplicationController
-
+class TasksController < ApplicationController
   def index
     @tasks = Task.all
   end
@@ -22,5 +21,3 @@ class TasklistController < ApplicationController
   def destroy
   end
 end
-
-
